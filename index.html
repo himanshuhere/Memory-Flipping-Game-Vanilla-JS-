@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Memory Flip Game 2018</title>
+
+  <link rel="stylesheet" href="mystyle.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+</head>
+<style>
+#sec54{
+  display: none;
+}
+</style>
+<body>
+  
+    
+      
+  <div class="content">
+    <h1><strong>Missing Flipping </strong>Game</h1>
+    <h3>Start play - <h3 style="color:skyblue">Click to flip</h3></h3>
+    <h4><strong>2018</strong></h4>
+    <!--<input class="form-control" id="input" type="text" name="name" placeholder="Enter your name" style="font-style:century gothic;"/>-->
+    <button class="btn btn-primary" id="btn-start" onclick="funn()" >Start To Play</button>
+
+  </div>
+ <div class="sec" id="sec54">
+  <section class="memory-game">
+   
+    <div class="memory-card" data-framework="captainamerica">
+      <img class="front-face" src="img/captainamerica.png" alt="captainamerica" />
+      <img class="back-face" src="img/avengers.png" alt="Avengers-img" />
+    </div>
+    <div class="memory-card" data-framework="captainamerica">
+      <img class="front-face" src="img/captainamerica.png" alt="captainamerica" />
+      <img class="back-face" src="img/avengers.png" alt="Avengers-img" />
+    </div>
+
+
+
+    <div class="memory-card" data-framework="blackwidow">
+      <img class="front-face" src="img/blackwidow.png" alt="blackwidow" />
+      <img class="back-face" src="img/avengers.png" alt="avenger-img" />
+    </div>
+    <div class="memory-card" data-framework="blackwidow">
+      <img class="front-face" src="img/blackwidow.png" alt="blackwidow" />
+      <img class="back-face" src="img/avengers.png" alt="avenger-img" />
+    </div>
+
+
+
+    <div class="memory-card" data-framework="ironman">
+      <img class="front-face" src="img/ironman.png" alt="ironman" />
+      <img class="back-face" src="img/avengers.png" alt="avenger-img" />
+    </div>
+    <div class="memory-card" data-framework="ironman">
+      <img class="front-face" src="img/ironman.png" alt="ironman" />
+      <img class="back-face" src="img/avengers.png" alt="avenger-img" />
+    </div>
+
+
+
+    <div class="memory-card" data-framework="blackpanther">
+      <img class="front-face" src="img/blackpanther.png" alt="blackpanther" />
+      <img class="back-face" src="img/avengers.png" alt="Avengers-img" />
+    </div>
+    <div class="memory-card" data-framework="blackpanther">
+      <img class="front-face" src="img/blackpanther.png" alt="blackpanther" />
+      <img class="back-face" src="img/avengers.png" alt="Avengers-img" />
+    </div>
+
+
+
+    <div class="memory-card" data-framework="thor">
+      <img class="front-face" src="img/thor.png" alt="thor" />
+      <img class="back-face" src="img/avengers.png" alt="Avengers-img" />
+    </div>
+    <div class="memory-card" data-framework="thor">
+      <img class="front-face" src="img/thor.png" alt="thor" />
+      <img class="back-face" src="img/avengers.png" alt="Avengers-img" />
+    </div>
+
+
+
+    <div class="memory-card" data-framework="doctorstrange">
+      <img class="front-face" src="img/doctorstrange.png" alt="doctorstrange" />
+      <img class="back-face" src="img/avengers.png" alt="Avengers-img" />
+    </div>
+    <div class="memory-card" data-framework="doctorstrange">
+      <img class="front-face" src="img/doctorstrange.png" alt="doctorstrange" />
+      <img class="back-face" src="img/avengers.png" alt="Avengers-img" />
+    </div>
+
+  </section>
+
+  </div>
+  <p style="text-align:center;font-family:century gothic,sans-serif;color:skyblue;font-size:14px;font-weight:bold;margine-top:10px;">Developed by <tag style="color:white;font-weight:bold;">Himanshu Soni </tag>| 2018</p>
+
+  <script src="scripts.js"></script>
+  <script type="text/javascript">
+    function funn(){
+      
+       var x = document.getElementById("sec54");  //sec-div
+       var y = document.getElementById("btn-start");  //btn
+       
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        y.innerHTML = "Play Again";
+       
+
+    } else {
+        x.style.display = "none";
+         y.innerHTML = "Start To Play";
+         
+
+    }
+        
+    }
+  </script>
+
+
+</body>
+</html>
