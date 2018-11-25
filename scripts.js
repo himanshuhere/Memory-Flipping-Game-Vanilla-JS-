@@ -6,6 +6,7 @@ let firstCard, secondCard;
 var count = 0;
 var totalcount = 0;
 
+
 function flipCard() {
   
   if (lockBoard) return;
