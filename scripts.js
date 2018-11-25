@@ -7,6 +7,7 @@ var count = 0;
 var totalcount = 0;
 
 function flipCard() {
+  
   if (lockBoard) return;
   // flipping card here
   // pre condition check
