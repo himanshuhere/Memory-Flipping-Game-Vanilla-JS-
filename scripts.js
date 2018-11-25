@@ -25,8 +25,7 @@ function flipCard() {
     return;
   }
 
-
-     // second click flip
+ // second click flip
     secondCard = this;
 
     checkIfMatchOrNot();    // check
