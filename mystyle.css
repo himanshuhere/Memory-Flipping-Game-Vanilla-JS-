@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 body {
   height: 100vh;
   display: flex;background: #000000;  /* fallback for old browsers */
