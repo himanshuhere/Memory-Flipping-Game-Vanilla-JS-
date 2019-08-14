@@ -27,6 +27,7 @@ function flipCard() {
     return;
   }
 
+  
  // second click flip
     secondCard = this;
 
