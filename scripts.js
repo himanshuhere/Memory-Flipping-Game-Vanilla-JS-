@@ -33,7 +33,6 @@ function flipCard() {
 
     checkIfMatchOrNot();    // check
       
-
        if(count >= 6){
         alert("WOW!! You've played very well."+"\n"+"You've completed in total"+" "+totalcount+" "+"turns."+"\n"+"SCORE : "+totalcount);
         setTimeout(function(){
